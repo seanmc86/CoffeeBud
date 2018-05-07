@@ -19,6 +19,7 @@
 		1DA41F211E5EA15300E09F07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DA41F201E5EA15300E09F07 /* Assets.xcassets */; };
 		1DA41F241E5EA15300E09F07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DA41F221E5EA15300E09F07 /* LaunchScreen.storyboard */; };
 		1DA41F2C1E5EB97400E09F07 /* ViewController_Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA41F2B1E5EB97400E09F07 /* ViewController_Map.swift */; };
+		1DBC8C1C207F86A600B03FE1 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBC8C1B207F86A600B03FE1 /* Data.swift */; };
 		1DC117191F2AFB920066194E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC117181F2AFB920066194E /* User.swift */; };
 		1DCC77F41F2B29E600B03237 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCC77F31F2B29E600B03237 /* DBManager.swift */; };
 		1DCC77F61F2B344B00B03237 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCC77F51F2B344B00B03237 /* libsqlite3.tbd */; };
@@ -61,6 +62,7 @@
 		1DA41F2B1E5EB97400E09F07 /* ViewController_Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController_Map.swift; sourceTree = "<group>"; };
 		1DBACA731FBB3895008982D8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		1DBACA741FBB389E008982D8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1DBC8C1B207F86A600B03FE1 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		1DC117181F2AFB920066194E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		1DCC77F31F2B29E600B03237 /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		1DCC77F51F2B344B00B03237 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
@@ -135,6 +137,7 @@
 			children = (
 				1D7937AF1F2B27390009A73A /* FMDB */,
 				1DA41F191E5EA15300E09F07 /* AppDelegate.swift */,
+				1DBC8C1B207F86A600B03FE1 /* Data.swift */,
 				1DCC77F31F2B29E600B03237 /* DBManager.swift */,
 				1DC117181F2AFB920066194E /* User.swift */,
 				1DA41F1B1E5EA15300E09F07 /* ViewController.swift */,
@@ -246,6 +249,7 @@
 				1D583AEC1F39DFF5003FA080 /* HelpTableViewController.swift in Sources */,
 				1D01EED71F5553A10026B08A /* HelpDetail.swift in Sources */,
 				1D583AEE1F39E004003FA080 /* HelpTableViewCell.swift in Sources */,
+				1DBC8C1C207F86A600B03FE1 /* Data.swift in Sources */,
 				1D892219207E633700F824D4 /* HelpAboutViewController.swift in Sources */,
 				1D89221B207E638000F824D4 /* HelpFAQViewController.swift in Sources */,
 				1DA41F2C1E5EB97400E09F07 /* ViewController_Map.swift in Sources */,
